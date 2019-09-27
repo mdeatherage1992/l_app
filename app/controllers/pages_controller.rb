@@ -8,7 +8,7 @@ class PagesController < ApplicationController
          render json: @customer_reviews
       rescue Exception => e
         error_msg = e.message
-        render json: {error:error_msg}, status: :unprocessable_entity
+        render json: {error:error_msg, message: 'please review link parameter'}, status: :unprocessable_entity
       end
     else
       error_msg = 'Link parameter is missing'
