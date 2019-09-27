@@ -12,7 +12,7 @@ Instructions:
 
 * POSTMAN Instructions:
 
-* http://localhost:3000
+* http://localhost:3000/get_reviews
 
 * parameters: KEY: link , value: YOUR LENDING TREE LINK
 
